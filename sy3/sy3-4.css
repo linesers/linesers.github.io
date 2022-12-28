@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+table{
+	width: 60%;     /*通过百分比的形式来设置宽度*/
+	border-collapse:collapse;     /*折叠边框，如果属性设置为collapse则折叠边框*/
+    caption-side: top          /*标题相对于表格的位置*/
+}
+th{
+	height: 30px
+}
+/*在使用类选择符时，并不需要限定这个类对谁用，而是直接以“.类名”的方式进行编辑*/
+.first{
+	color: white;
+	background-color: #3D3B99
+}
+.second{
+	background-color: #C1CAC8
+}
+.third{
+	background-color: #E7F186
+}

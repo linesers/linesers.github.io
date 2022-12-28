@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+.test ul{
+	list-style: none;
+}
+.test li{
+	float: left;
+	width: 100px;
+	background:#CCC;
+	margin-left:3px; /*设置元素的左外边距，在这里体现为使每个菜单之间空3px距离*/
+	line-height:30px;
+}
+.test a:link{
+	color: #666;
+	background:url()#CCC no-repeat 5px 12px;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	height: 30px;/*让列表<li>的行高和链接<a>的高度相同，并且设置链接的文字属性为居中，就可以实现文字放在块的中间*/
+}
+.test a:visited{
+	color: #666;
+	text-decoration: underline;
+}
+.test a:hover{
+	color: #FFF;
+	font-weight: bold;
+	text-decoration: none;
+	background: url()#F00 no-repeat 5px 12px;
+} 
+/*这里的hover表示设置鼠标悬浮在该链接上的元素*/
+
