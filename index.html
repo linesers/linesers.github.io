@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>欢迎来到 linesers 主页</title>
+        <!-- ------------------------------------------------- -->
+        <link rel="stylesheet" href="css/base.css" />
+        <link rel="stylesheet" href="css/fullpage.min.css" />
+        <!-- 引入外部字体连接 -->
+        <link rel="stylesheet" href="./font/style.css" />
+        <!-- 引入animate -->
+        <link rel="stylesheet" href="./css/animate.min.css" />
+        <link rel="stylesheet" href="./css/style-1.css" />
+        <link rel="stylesheet" href="./css/style-2.css" />
+        <link rel="stylesheet" href="./css/style-3.css" />
+        <link rel="stylesheet" href="./css/style-4.css" />
+        <link rel="stylesheet" href="./css/style-5.css" />
+        <link rel="stylesheet" href="./css/jaliswall.css" />
+        <!-- ------------------------------------------------- -->
+        <script src="js/jQuery.mini.js"></script>
+        <script src="js/fullpage.min.js"></script>
+        <script src="js/jaliswall.js"></script>
+        <script src="js/index.js"></script>
+        <script type="text/javascript">
+            window.onload = function(){
+                     setInterval("toggleSound()",100);
+                }
+        
+            function toggleSound() {
+                        var music = document.getElementById("vd");//获取ID  
+                            
+                        if (music.paused) { //判读是否播放  
+                            music.paused=false;
+                            music.play(); //没有就播放 
+                        }    
+                }
+        </script>        
+        <style>
+            /* 轮播圆点颜色 */
+            #fp-nav ul li a span {
+                background-color: #fff !important;
+            }
+            /* 左右滑块的样式 */
+            .fp-bottom ul {
+                width: 100%;
+                text-align: center;
+            }
+            /* 三屏的圆点颜色 */
+            .fp-bottom ul li a span {
+                background-color: rgb(255, 255, 255);
+            }
+            body {
+                background-image: linear-gradient(#48f1d5, #fff, #ffa4a4);
+            }
+        </style>
+    </head>
+
+    <body>
+        <audio src="The Light.mp3" autoplay="autoplay" id="vd" loop="loop" preload="auto"></audio>
+        <div id="dowebok">
+            <!-- <h3>第一屏</h3> -->
+            <div class="section sec1" id="section1">
+                <!-- 背景圆点 -->
+                <div class="sec1_circle1"></div>
+                <div class="sec1_circle2"></div>
+                <div class="sec1_circle3"></div>
+                <!-- 头部 -->
+                <header>
+                <nav>
+                    <ul>
+                        <li class="local_home">
+                            <a href="#page1">
+                                <span class="local_hd">Home</span>
+                                <span class="local_bd">主页</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page2">
+                                <span class="local_hd">Hobby</span>
+                                <span class="local_bd">兴趣爱好</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page3">
+                                <span class="local_hd">Photo</span>
+                                <span class="local_bd">照片集</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page4">
+                                <span class="local_hd">Memory</span>
+                                <span class="local_bd">2022难忘瞬间</span>
+                            </a>
+                        </li>
+                        <li class="local_home">
+                            <a href="#page5 ">
+                                <span class="local_hd">Video</span>
+                                <span class="local_bd">视频</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                </header>
+                <!-- 内容区域 -->
+                <main>
+                    <div class="main_left">
+                        <div class="myPhoto current">
+                            <a href="#">
+                                <img src="./img/myphoto.jpg" alt="" />
+                                <h3>Linesers</h3>
+                                <p>刘静</p>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>首页</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>电话</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>邮箱</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>微信</span>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="#">
+                                <p></p>
+                                <span>更多</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="main_right">
+                        <div class="content hidden" style="display: block">
+                            <img src="./img/myphoto.jpg" alt="" / class="touxiang">
+                            <p>我始终告诉自己</p>
+                            <p>吾辈当自强</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="./img/1-1.jpg" alt="" / class="touxiang">
+                            <p>我叫刘静，来自华东交通大学经济管理学院</p>
+                            <p>是20经统班级中的一员</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="./img/1-2.jpg" alt="" / class="touxiang">
+                            <p>我的电话是17679336965</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="./img/1-3.jpg" alt="" / class="touxiang">
+                            <p>我的邮箱是1010436462@qq.com</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="./img/1-4.jpg" alt="" / class="touxiang">
+                            <p>我的微信号是supersweetlip</p>
+                            <p>（这个名字是不是很奇怪啊哈哈）</p>
+                        </div>
+
+                        <div class="content hidden">
+                            <img src="./img/1-5.jpg" alt="" / class="touxiang">
+                            <p>我还有很多别称例如清蒸鱼、静静子...</p>
+                        </div>
+
+                    </div>
+                </main>
+            </div>
+            <!-- <h3>第二屏</h3> -->
+            <div class="section sec2" id="section2">
+                <!-- 背景小圆点 -->
+                <div class="sec2_circle1"></div>
+                <div class="sec2_circle2"></div>
+                <div class="sec2_circle3"></div>
+                <!-- 主题内容 -->
+                <div class="sec2_main">
+                    <div class="sec2_main_head">
+                        <ul>
+                            <li class="current1">
+                                <a href="#">唱歌</a>
+                            </li>
+                            <li><a href="#">听音乐</a></li>
+                            <li><a href="#">跳舞</a></li>
+                            <li><a href="#">朗诵</a></li>
+                            <li><a href="#">弹吉他</a></li>
+                            <li><a href="#">写诗</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec2_main_body">
+                        <div class="sec2_main_body_content hidden" style="display: block">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>我真的超级喜欢唱歌！在去年我参加了院青歌赛并且闯进决赛，这是我和我特别好的朋友航航一起上台表演的照片，回不去的夏天，盛满了年少的感动和美好</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="./img/s-1.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>我超级喜欢听歌，接触的歌曲类型也很多，其中我最喜欢电子音乐、二次元、说唱。我是网易云满级村民，听歌次数已突破十万次，梦想之一是成为网易音乐人，拥有自己的作品！要一直努力啊！</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="./img/s-2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>我也接触过街舞，在大一加入了学校舞蹈者协会，并且和社员一起组织和参加了舞肆大赛，获得校内齐舞组亚军，跳舞真是太快乐啦！</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="./img/s-3.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>我很喜欢朗诵，大一进入了学校播音主持部</p>
+                                <p>“大家好，欢迎收听你的月亮我的心，我是主播浅浅”</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="./img/s-4.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>最开始学吉他是因为朋友给我弹了一首《十年》，而现在离初学吉他已经快十年了，自己在吉他上仍然是没啥进步，真的想说坚持真难啊。</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="./img/s-5.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec2_main_body_content hidden">
+                            <div class="sec2_main_body_content_left">
+                                <p>💘</p>
+                                <p>小时候特别喜欢写诗，还记得我把一整本本子都写满了诗，到现在也依旧是一个很感性的人，日常的一点小事都会让我感触很多，也正因此，我想用笔把世间那些珍贵的情感记录下来。</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec2_main_body_content_right">
+                                <img src="./img/s-6.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <h3>第三屏</h3> -->
+            <div class="section sec3" id="section3">
+                <div class="slide">
+                    <img src="./img/3-1.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/3-2.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/3-3.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/3-4.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/3-5.jpg" alt="" />
+                </div>
+                <div class="slide">
+                    <img src="./img/3-6.jpg" alt="" />
+                </div>
+            </div>
+            <!-- <h3>第四屏</h3> -->
+            <div class="section sec4" id="section4">
+                <!-- 背景小圆点 -->
+                <div class="sec4_circle1"></div>
+                <div class="sec4_circle2"></div>
+                <div class="sec4_circle3"></div>
+                <!-- 主题内容 -->
+                <div class="sec4_main">
+                    <div class="sec4_main_head">
+                        <ul>
+                            <li class="current1">
+                                <a href="#">第一个满分课程</a>
+                            </li>
+                            <li><a href="#">校园恋爱</a></li>
+                            <li><a href="#">驾照</a></li>
+                            <li><a href="#">数学建模</a></li>
+                            <li><a href="#">华创杯</a></li>
+                            <li><a href="#">奥密克戎</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec4_main_body">
+                        <div class="sec4_main_body_content hidden" style="display: block">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>2022年的第一次感动来源于这意料之外的概率论满分。虽然没什么天赋，但我一直都喜欢数学，也正是因为喜欢数学，我选择了这个专业。</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="./img/4-1.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>体验了一次校园恋爱，他带着我跑了人生第一次6公里，一起唱歌一起学习，那也是一段丰富的经历吧。虽然结局不算美好，但在那之后我更加坚定了要成为温柔、强大、勇敢、自信的人</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="./img/4-2.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>考驾照真是让人心惊肉跳的过程啊！并且没有补考。这算是2022年又刺激又开心的一个经历了</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="./img/4-3.jpg" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>第一次参加数学建模竞赛，没有什么准备就上场了，从毫无头绪到渐入佳境，三天时间就这么转瞬即逝。这次比赛带给我很不一样的体验，并且最后收获了意料之外的省二，很激动，很难忘。</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="./img/4-4.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>今年最感动的事莫过于此次比赛了，第一次参加市场调查大赛，第一次带队，第一次为了一个比赛如此努力，第一次体会到团队的力量这么强大，体会到那么多酸甜苦辣。</p>
+                                <p>这长达两个月的比赛给我带来了太多感动太多泪水，省级一等奖也给这段经历画上了完美的句号，这是我会铭记一生的感动。那年10月，我与他们的故事。</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="./img/4-5.png" alt="" />
+                            </div>
+                        </div>
+                        <div class="sec4_main_body_content hidden">
+                            <div class="sec4_main_body_content_left">
+                                <p>💘</p>
+                                <p>12月总是忙碌而又杂乱的一个月，今年也不例外。奥密克戎悄然无息来到我身边，我体验了一次高烧缠身，也更加坚定要好好爱自己的身体，真的要坚持运动啊。</p>
+                                <p>💓</p>
+                            </div>
+                            <div class="sec4_main_body_content_right">
+                                <img src="./img/4-6.jpg" alt="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <h3>第五屏</h3> -->
+            <div class="section sec5" id="section5">
+                <video src="./img/study.mp4" autoplay loop controls></video>
+            </div>
+        </div>
+        <!-- ------------------------------------------------- -->
+        <!-- 官网提供的 axios 在线地址 -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <!-- 引入在线axios地址 -->
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <!-- 开发环境版本，包含了有帮助的命令行警告 -->
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+        <script src="./js/vue.js"></script>
+    </body>
+</html>

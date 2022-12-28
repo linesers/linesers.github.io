@@ -1,0 +1,134 @@
+/* 背景 */
+.sec4 {
+    background: linear-gradient(to right top, #ffe0cc, #ff9f60);
+    min-height: 100vh;
+    background-size: 100%;
+}
+/* 小圆点 */
+.sec4_circle1 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 113, 191, 0.8),
+        rgba(230, 255, 253, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 25%;
+    bottom: 30%;
+    left: 10%;
+    transform: rotate(66deg);
+}
+.sec4_circle2 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(208, 252, 228, 0.8),
+        rgba(255, 225, 225, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 25%;
+    top: 20%;
+    right: 10%;
+    transform: rotate(33deg);
+}
+.sec4_circle3 {
+    background: white;
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 225, 225, 0.8),
+        rgba(255, 255, 255, 0.3)
+    );
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    border-radius: 25%;
+    bottom: 5%;
+    right: 40%;
+    transform: rotate(99deg);
+}
+/* 主体部分 */
+#section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4_main {
+    width: 1200px;
+    height: 600px;
+    border-radius: 25px;
+    background-color: rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    backdrop-filter: blur(0.2rem);
+}
+.sec4_main_head ul {
+    width: 1200px;
+}
+.sec4_main_head ul li {
+    float: left;
+    width: 200px;
+    height: 100px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    transition: all 1s;
+}
+.sec4_main_head ul li a {
+    display: block;
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 16px;
+    color: #426696;
+    transition: all 1s;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.sec4_main_head ul li a:hover {
+    background-color: rgb(255, 211, 221);
+    color: rgb(255,163,102);
+}
+.current1 {
+    background-color: rgb(255, 111, 145);
+}
+
+.sec4_main_body_content {
+    float: left;
+    width: 1200px;
+    height: 500px;
+}
+/* sec4_main_body */
+.sec4_main_body_content_left {
+    float: left;
+    width: 20%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+}
+.sec4_main_body_content_left p {
+    flex: 1;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    color: #426696;
+    padding-left: 30px;
+}
+.sec4_main_body_content_right {
+    float: right;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec4_main_body_content_right img {
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    transition: all 1s;
+}
+/* 个人图片 */
+
